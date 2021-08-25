@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5463" started-at="2021-08-25T12:04:20 CDT" finished-at="2021-08-25T12:04:25 CDT">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="4968" started-at="2021-08-25T12:04:20 CDT" finished-at="2021-08-25T12:04:25 CDT">
+      <class name="com.retailapp.tests.LoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.retailapp.tests.LoginTest@10d59286]" name="init" is-config="true" duration-ms="1228" started-at="2021-08-25T12:04:20 CDT" finished-at="2021-08-25T12:04:21 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.retailapp.tests.LoginTest@10d59286]" name="before" is-config="true" duration-ms="317" started-at="2021-08-25T12:04:21 CDT" finished-at="2021-08-25T12:04:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.retailapp.tests.LoginTest@10d59286]" name="doLogin" duration-ms="2588" started-at="2021-08-25T12:04:22 CDT" data-provider="getData" finished-at="2021-08-25T12:04:24 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=admin, ExpectedLoginStatus=success, Password=whizdom, Runmode=Y, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="quite()[pri:0, instance:com.retailapp.tests.LoginTest@10d59286]" name="quite" is-config="true" duration-ms="626" started-at="2021-08-25T12:04:24 CDT" finished-at="2021-08-25T12:04:25 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.retailapp.tests.LoginTest@10d59286]" name="before" is-config="true" duration-ms="1" started-at="2021-08-25T12:04:25 CDT" finished-at="2021-08-25T12:04:25 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.retailapp.tests.LoginTest@10d59286]" name="doLogin" duration-ms="41" started-at="2021-08-25T12:04:25 CDT" data-provider="getData" finished-at="2021-08-25T12:04:25 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=admin, ExpectedLoginStatus=success, Password=asdfasdf, Runmode=Y, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="quite()[pri:0, instance:com.retailapp.tests.LoginTest@10d59286]" name="quite" is-config="true" duration-ms="35" started-at="2021-08-25T12:04:25 CDT" finished-at="2021-08-25T12:04:25 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.retailapp.tests.LoginTest@10d59286]" name="before" is-config="true" duration-ms="1" started-at="2021-08-25T12:04:25 CDT" finished-at="2021-08-25T12:04:25 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.retailapp.tests.LoginTest@10d59286]" name="doLogin" duration-ms="49" started-at="2021-08-25T12:04:25 CDT" data-provider="getData" finished-at="2021-08-25T12:04:25 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=admin, ExpectedLoginStatus=success, Password=whizdom, Runmode=Y, Result=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="quite()[pri:0, instance:com.retailapp.tests.LoginTest@10d59286]" name="quite" is-config="true" duration-ms="18" started-at="2021-08-25T12:04:25 CDT" finished-at="2021-08-25T12:04:25 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+      </class> <!-- com.retailapp.tests.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test name="AddCategory" duration-ms="474" started-at="2021-08-25T12:04:25 CDT" finished-at="2021-08-25T12:04:25 CDT">
+      <class name="com.retailapp.tests.AddCategory">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.retailapp.tests.AddCategory@1cab0bfb]" name="init" is-config="true" duration-ms="69" started-at="2021-08-25T12:04:25 CDT" finished-at="2021-08-25T12:04:25 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.retailapp.tests.AddCategory@1cab0bfb]" name="before" is-config="true" duration-ms="0" started-at="2021-08-25T12:04:25 CDT" finished-at="2021-08-25T12:04:25 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="addCat(java.util.Hashtable)[pri:0, instance:com.retailapp.tests.AddCategory@1cab0bfb]" name="addCat" duration-ms="232" started-at="2021-08-25T12:04:25 CDT" data-provider="getData" finished-at="2021-08-25T12:04:25 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y, CategoryName=Furniture}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCat -->
+        <test-method status="PASS" signature="quite()[pri:0, instance:com.retailapp.tests.AddCategory@1cab0bfb]" name="quite" is-config="true" duration-ms="26" started-at="2021-08-25T12:04:25 CDT" finished-at="2021-08-25T12:04:25 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.retailapp.tests.AddCategory@1cab0bfb]" name="before" is-config="true" duration-ms="0" started-at="2021-08-25T12:04:25 CDT" finished-at="2021-08-25T12:04:25 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="addCat(java.util.Hashtable)[pri:0, instance:com.retailapp.tests.AddCategory@1cab0bfb]" name="addCat" duration-ms="44" started-at="2021-08-25T12:04:25 CDT" data-provider="getData" finished-at="2021-08-25T12:04:25 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y, CategoryName=Camera}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCat -->
+        <test-method status="PASS" signature="quite()[pri:0, instance:com.retailapp.tests.AddCategory@1cab0bfb]" name="quite" is-config="true" duration-ms="22" started-at="2021-08-25T12:04:25 CDT" finished-at="2021-08-25T12:04:25 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.retailapp.tests.AddCategory@1cab0bfb]" name="before" is-config="true" duration-ms="0" started-at="2021-08-25T12:04:25 CDT" finished-at="2021-08-25T12:04:25 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="addCat(java.util.Hashtable)[pri:0, instance:com.retailapp.tests.AddCategory@1cab0bfb]" name="addCat" duration-ms="51" started-at="2021-08-25T12:04:25 CDT" data-provider="getData" finished-at="2021-08-25T12:04:25 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y, CategoryName=Mobile}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCat -->
+        <test-method status="PASS" signature="quite()[pri:0, instance:com.retailapp.tests.AddCategory@1cab0bfb]" name="quite" is-config="true" duration-ms="16" started-at="2021-08-25T12:04:25 CDT" finished-at="2021-08-25T12:04:25 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+      </class> <!-- com.retailapp.tests.AddCategory -->
+    </test> <!-- AddCategory -->
+  </suite> <!-- Suite -->
+</testng-results>
